@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Login from './Login';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="g-signin">
+    <Login />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
